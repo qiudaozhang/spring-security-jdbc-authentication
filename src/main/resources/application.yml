@@ -1,0 +1,7 @@
+ spring:
+   datasource:
+     username: root
+     password: rootroot
+#     确保数据库先创建，相关个人性化信息，自行修改
+     url: jdbc:mysql://localhost:3306/ss?serverTimezone=Asia/Shanghai
+     initialization-mode: always
